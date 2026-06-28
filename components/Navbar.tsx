@@ -14,6 +14,7 @@ const Navbar: React.FC = () => {
     { label: t.navHome, href: "#home" },
     { label: t.navPackages, href: "#packages" },
     { label: t.navPortfolio, href: "#portfolio" },
+    { label: t.navMobileApps, href: "#mobile-apps" },
     { label: t.navAbout, href: "#about" },
     { label: t.navContact, href: "#contact" },
   ];

@@ -25,7 +25,7 @@ const About: React.FC = () => {
             </h2>
             <div className="w-20 h-1.5 bg-indigo-600 rounded-full"></div>
             <p className="text-lg text-slate-600 leading-relaxed italic">
-              "Dijital dünyadaki varlığınız, sadece bir sayfa değil, markanızın hikayesidir."
+              "{t.aboutQuote}"
             </p>
             <p className="text-lg text-slate-700 leading-relaxed">
               {t.aboutBody}

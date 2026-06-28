@@ -47,8 +47,23 @@ export interface Translation {
 
   portfolioTitle: string;
   portfolioSubtitle: string;
+  portfolioTabWeb: string;
+  portfolioTabMobile: string;
+  portfolioViewProject: string;
+  portfolioFallbackLink: string;
+  portfolioMore: string;
+
+  proj1Title: string;
+  proj1Desc: string;
+  proj2Title: string;
+  proj2Desc: string;
+  proj3Title: string;
+  proj3Desc: string;
+  proj4Title: string;
+  proj4Desc: string;
 
   aboutTitle: string;
+  aboutQuote: string;
   aboutBody: string;
 
   contactTitle: string;
@@ -59,7 +74,20 @@ export interface Translation {
   messageLabel: string;
   sendBtn: string;
   whatsappCta: string;
+  footerRights: string;
 
   demoClose: string;
   demoScrollHint: string;
+
+  navMobileApps: string;
+  mobileAppsTitle: string;
+  mobileAppsSubtitle: string;
+  mobileAppsOnlyIos: string;
+  mobileAppsDownloadBtn: string;
+
+  bbAppCategory: string;
+  bbAppDesc: string;
+  bbAppNote: string;
+  forxAppCategory: string;
+  forxAppDesc: string;
 }

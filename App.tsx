@@ -8,6 +8,7 @@ import Packages from './components/Packages';
 import Portfolio from './components/Portfolio';
 import About from './components/About';
 import Contact from './components/Contact';
+import MobileApps from './components/MobileApps';
 import Footer from './components/Footer';
 
 interface LanguageContextType {
@@ -36,6 +37,7 @@ const App: React.FC = () => {
           <Hero />
           <Packages />
           <Portfolio />
+          <MobileApps />
           <About />
           <Contact />
         </main>

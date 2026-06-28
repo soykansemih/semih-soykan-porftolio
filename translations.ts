@@ -13,9 +13,9 @@ export const translations: Record<'tr' | 'en', Translation> = {
       "Modern, hızlı ve sonuç odaklı web çözümleriyle markanızı geleceğe taşıyın. Semih Soykan ile profesyonel bir başlangıç yapın.",
     heroCta: "Paketleri İncele",
 
-    packagesTitle: "Hizmet Paketleri",
+    packagesTitle: "Projeleriniz İçin Buradayım",
     packagesSubtitle:
-      "İhtiyacınıza en uygun çözümü seçin, dijital dünyada fark yaratmaya başlayın.",
+      "Web sitesinden mobil uygulamaya, e-ticaretten özel yazılıma — her projeye özel çözüm üretiyorum. Fikrinizi hayata geçirmek için konuşalım.",
 
     /* ===== LAUNCHPAD ===== */
     launchTitle: "Başlangıç Paketi",
@@ -51,8 +51,23 @@ export const translations: Record<'tr' | 'en', Translation> = {
     portfolioTitle: "Neler Yaptım?",
     portfolioSubtitle:
       "Hayata geçirdiğim modern ve kullanıcı dostu projelerden bazıları.",
+    portfolioTabWeb: "Web",
+    portfolioTabMobile: "Mobil",
+    portfolioViewProject: "Projeyi Gör",
+    portfolioFallbackLink: "Yedek Link",
+    portfolioMore: "Daha fazla proje yakında eklenecektir...",
+
+    proj1Title: "Operasyon Takip Sistemi",
+    proj1Desc: "Gelir takibini dijitalleştiren kapsamlı çözüm.",
+    proj2Title: "BB Oto Yıkama — Kurumsal Web Sitesi",
+    proj2Desc: "SEO odaklı profesyonel marka sunumu.",
+    proj3Title: "Akıllı Tarım Cihazı",
+    proj3Desc: "Sensör verilerini web ve mobilde sunan akıllı tarım çözümü.",
+    proj4Title: "Maxx Toys — Kurumsal Web Sitesi",
+    proj4Desc: "SEO odaklı profesyonel marka sunumu.",
 
     aboutTitle: "Ben Kimim?",
+    aboutQuote: "Dijital dünyadaki varlığınız, sadece bir sayfa değil, markanızın hikayesidir.",
     aboutBody:
       "Merhaba, ben Semih Soykan. Modern web teknolojileri ve e-ticaret çözümleri üzerine çalışmalar yürüten bir geliştiriciyim. Sadece bir web sitesi değil; kullanıcı dostu, satış odaklı ve markanızın kimliğini dijital dünyaya en doğru şekilde yansıtan sistemler kuruyorum. Profesyonel bakış açımı samimi bir iletişimle birleştirerek, projelerinizde güvenilir bir çözüm ortağı olmayı hedefliyorum.",
 
@@ -67,7 +82,21 @@ export const translations: Record<'tr' | 'en', Translation> = {
     whatsappCta: "WhatsApp ile Hemen Yaz",
 
     demoClose: "Kapat",
-    demoScrollHint: "Aşağı kaydırarak inceleyin"
+    demoScrollHint: "Aşağı kaydırarak inceleyin",
+
+    navMobileApps: "Mobil Uygulamalar",
+    mobileAppsTitle: "Mobil Uygulamalarım",
+    mobileAppsSubtitle: "App Store'da yayında olan, gerçek kullanıcılar için geliştirdiğim iOS uygulamaları.",
+    mobileAppsOnlyIos: "Yalnızca App Store'da Mevcut",
+    mobileAppsDownloadBtn: "App Store'dan İndir",
+
+    bbAppCategory: "Araç Bakım & Yıkama",
+    bbAppDesc: "Müşteri sadakatini artıran randevu ve ödül sistemiyle oto yıkama deneyimini dijitalleştiren akıllı uygulama.",
+    bbAppNote: "Bu uygulama BB Oto Yıkama işletmesi ve müşterileri için geliştirilmiştir.",
+    forxAppCategory: "Finans & Yatırım",
+    forxAppDesc: "Döviz, altın ve kripto para fiyatlarını anlık takip edebileceğiniz, sezgisel arayüzlü kişisel finans uygulaması.",
+
+    footerRights: "Tüm hakları saklıdır."
   },
 
   en: {
@@ -82,9 +111,9 @@ export const translations: Record<'tr' | 'en', Translation> = {
       "Carry your brand into the future with modern, fast, and result-oriented web solutions. Start professionally with Semih Soykan.",
     heroCta: "View Packages",
 
-    packagesTitle: "Service Packages",
+    packagesTitle: "Here for Your Projects",
     packagesSubtitle:
-      "Choose the solution that suits your needs and start standing out digitally.",
+      "From websites to mobile apps, e-commerce to custom software — I build tailored solutions for every project. Let's bring your idea to life.",
 
     /* ===== LAUNCHPAD ===== */
     launchTitle: "Launchpad",
@@ -120,8 +149,23 @@ export const translations: Record<'tr' | 'en', Translation> = {
     portfolioTitle: "Portfolio",
     portfolioSubtitle:
       "Some of the modern and user-friendly projects I've brought to life.",
+    portfolioTabWeb: "Web",
+    portfolioTabMobile: "Mobile",
+    portfolioViewProject: "View Project",
+    portfolioFallbackLink: "Mirror Link",
+    portfolioMore: "More projects coming soon...",
+
+    proj1Title: "Operations Tracking System",
+    proj1Desc: "A comprehensive solution that digitalizes revenue tracking.",
+    proj2Title: "BB Oto Yıkama — Corporate Website",
+    proj2Desc: "Professional brand presentation with SEO focus.",
+    proj3Title: "Smart Farming Device",
+    proj3Desc: "A smart farming solution presenting sensor data on web and mobile.",
+    proj4Title: "Maxx Toys — Corporate Website",
+    proj4Desc: "Professional brand presentation with SEO focus.",
 
     aboutTitle: "Who Am I?",
+    aboutQuote: "Your presence in the digital world is not just a page — it's your brand's story.",
     aboutBody:
       "Hi, I’m Semih Soykan. I’m a developer working on modern web technologies and e-commerce solutions. I don’t just build websites; I create user-friendly, sales-focused systems that accurately reflect your brand’s identity in the digital world. By combining a professional perspective with sincere communication, I aim to be a reliable solution partner for your projects..",
 
@@ -136,6 +180,20 @@ export const translations: Record<'tr' | 'en', Translation> = {
     whatsappCta: "Message on WhatsApp",
 
     demoClose: "Close",
-    demoScrollHint: "Scroll down to explore"
+    demoScrollHint: "Scroll down to explore",
+
+    navMobileApps: "Mobile Apps",
+    mobileAppsTitle: "My Mobile Apps",
+    mobileAppsSubtitle: "iOS applications I've built and published on the App Store for real users.",
+    mobileAppsOnlyIos: "Available on App Store Only",
+    mobileAppsDownloadBtn: "Download on App Store",
+
+    bbAppCategory: "Car Care & Washing",
+    bbAppDesc: "A smart app that digitalizes the car wash experience with an appointment and loyalty reward system.",
+    bbAppNote: "This app was developed exclusively for the BB Oto Yıkama business and its customers.",
+    forxAppCategory: "Finance & Investment",
+    forxAppDesc: "A personal finance app with an intuitive interface for tracking live exchange rates, gold, and crypto prices.",
+
+    footerRights: "All rights reserved."
   }
 };
